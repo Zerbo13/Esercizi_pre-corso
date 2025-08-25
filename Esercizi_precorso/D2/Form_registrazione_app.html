@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form e input fields</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registrazione app music streaming</h1>
+
+    <form>
+        <input type="text" name="nome" placeholder="nome"><br><br>
+        <input type="text" name="cognome" placeholder="cognome"><br><br>
+        <input type="email" name="email" placeholder="email"><br><br>
+        <input type="password" name="password" placeholder="password"><br><br>
+        <input type="date" name="data" placeholder="data di nascita"><br><br>
+        <input type="number" name="telefono" placeholder="numero di telefono"><br><br>
+    </form>
+
+    <label>Scegli i tuoi gusti musicali:</label><br>
+            <label><input type="checkbox" name="genere" value="Trap"> Trap</label>&nbsp
+            <label><input type="checkbox" name="genere" value="Pop"> Pop</label>&nbsp
+            <label><input type="checkbox" name="genere" value="Rap"> Rap</label>&nbsp
+            <label><input type="checkbox" name="genere" value="Rock"> Rock</label>&nbsp
+            <label><input type="checkbox" name="genere" value="Jazz"> Jazz</label>&nbsp
+</label><br><br>
+  
+  <label>Accetta i termini e le condizioni</label>
+    <input type="radio" name="termini" value="accetto" required>
+  </label><br><br>
+
+  <button onclick="alert('Dati salvati!')" type="submit">Invia</button>
+
+</body>
+</html>
